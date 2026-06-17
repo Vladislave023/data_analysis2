@@ -1,12 +1,3 @@
-"""
-Пайплайн: CSV с новостями -> Groq LLM API -> структурированный JSON.
-
-Запуск (PowerShell):
-    pip install -r requirements.txt
-    $env:GROQ_API_KEY = "gsk_..."
-    python summarize.py
-"""
-
 from __future__ import annotations
 
 import argparse
